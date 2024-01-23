@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Light';
+  font-size: 20px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.card-news-section{
+  width: 100%;
+}
+.card-news-section > .container{
+  width: 1920px; height: 100vh;
+  padding: 0 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: rgba(234,247,254,0.5);
+  position: relative;
+}
+.phone-box{
+  width: 100%; height: 100%;
+  background-color: #ffffff;
+  padding-top: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(51,51,51,0.1);
+  display: flex;
+  justify-content: center;
+}
+.phone-box > .phone-content-box > .top-user-box{
+  box-sizing: border-box;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone-box > .phone-content-box > .top-user-box > .user-li{
+  display: flex;
+  align-items: center;
+}
+.phone-box > .phone-content-box > .top-user-box > .user-li > .user-img-box{
+  width: 30px; height: 30px;
+  border: 1px solid #F2F2F2;
+  border-radius: 40px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-box > .phone-content-box > .top-user-box > .user-li > .user-img-box > .user-img{
+  width: 20px; height: 20px;
+}
+.phone-box > .phone-content-box > .top-user-box > .user-li > .user-img-box > .user-img > img{
+  width: 100%; height: 100%;
+}
+.phone-box > .phone-content-box > .top-user-box > .pdf-btn > a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.phone-box > .phone-content-box > .top-user-box > .pdf-btn > a::after{
+  content: '';
+  width: 0; height: 1px;
+  background-color: #2752C1;
+  position: absolute;
+  bottom: 0; left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.phone-box > .phone-content-box > .top-user-box > .pdf-btn > a:hover::after{
+  width: 100%;
+}
+.phone-box > .phone-content-box > .top-user-box > .pdf-btn > a > .btn-name{
+  color: #2752C1;
+}
+.phone-box > .phone-content-box > .bottom-swiper-box{
+  width: 850px; height: 850px;
+  display: flex;
+  align-items: center;
+}
+.bottom-swiper-box >.swiper {
+  width: 100%; height: 100%;
+}
+.swiper-slide {
+  width: 100%; height: 100%;
+}
+.swiper-slide img {
+  width: 100%; height: 100%;
+}
+.cardswiper-pagination{
+  text-align: center;
+}
+.cardswiper-pagination .swiper-pagination-bullet{
+  background-color: #2752C1;
+}
